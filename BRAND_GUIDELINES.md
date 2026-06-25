@@ -1,21 +1,21 @@
-# Ellie's Flowers — Brand Guidelines
+# Anja's Flowers — Brand Guidelines
 
 ## 1. Brand Identity
-Ellie's Flowers is a classic, warm, garden-fresh florist in the heart of Tirana. The brand is built on abundant roses, tulips, and mixed seasonal bouquets, hand-crafted fresh every morning. Where many flower brands lean cool and minimal, Ellie's leans into warmth: coral and terracotta tones, generous blooms, and a friendly, timeless welcome.
+Anja's Flowers is a classic, warm, garden-fresh florist in the heart of Tirana. The brand is built on abundant roses, tulips, and mixed seasonal bouquets, hand-crafted fresh every morning. Where many flower brands lean cool and minimal, Anja's leans into warmth: coral and terracotta tones, generous blooms, and a friendly, timeless welcome.
 
 * **Brand Personality:** Classic, warm, friendly, timeless, and generous.
 * **Core Vibe:** A sun-warmed garden in full bloom — coral and terracotta hues, abundant roses and tulips, and the unhurried elegance of a neighbourhood atelier you return to year after year.
 * **Promise:** Hand-crafted fresh daily, with same-day delivery across Tirana.
-* **Instagram:** [@elliesflowers](https://instagram.com/elliesflowers)
+* **Instagram:** [@anjasflowers](https://instagram.com/anjasflowers)
 * **Location:** Sheshi Wilson, Tirana, Albania.
 
 ---
 
 ## 2. Logo
-The primary logo pairs a warm garden-bloom mark with the wordmark **ELLIES** set in widely tracked Montserrat-style capitals.
+The primary logo pairs a warm garden-bloom mark with the wordmark **ANJA'S** set in widely tracked Montserrat-style capitals.
 
 * **Mark:** A coral rose/garden bloom (`#C56B5A`) with deeper terracotta detail (`#9E4031`).
-* **Wordmark:** `ELLIES` in uppercase, generously letter-spaced, in warm ink (`#2B1A16`).
+* **Wordmark:** `ANJA'S` in uppercase, generously letter-spaced, in warm ink (`#2B1A16`).
 * **Tagline lock-up:** `FLOWERS & ROSES · TIRANA` in terracotta (`#9E4031`), sitting beneath a thin hairline rule.
 * **Clear space & background:** The logo lives on the soft warm-cream background (`#FBF3EC`). Preserve generous clear space around the mark; never crowd the wordmark.
 * **Asset:** `Brand/logo.svg` (≈520×260).

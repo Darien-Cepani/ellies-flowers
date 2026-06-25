@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Ellie's Flowers — warm coral & terracotta garden palette
+        // Anja's Flowers — warm coral & terracotta garden palette
         brand: {
           dark: '#2B1A16',      // primary ink / body text
           night: '#1A0F0C',     // deepest backgrounds (loader, hero, footer)

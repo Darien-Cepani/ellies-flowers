@@ -28,13 +28,13 @@ gsap.registerPlugin(ScrollTrigger);
 // Single source of truth for identity + the few colours referenced from JS
 // (custom cursor, Leaflet marker). All other colour comes from Tailwind tokens.
 const BRAND = {
-  name: "ELLIES",
-  wordmark: "Ellie's Flowers",
-  handle: "elliesflowers",
-  instagram: "https://instagram.com/elliesflowers",
+  name: "ANJA'S",
+  wordmark: "Anja's Flowers",
+  handle: "anjasflowers",
+  instagram: "https://instagram.com/anjasflowers",
   phone: "+355 69 209 7755",
   phoneHref: "+355692097755",
-  email: "hello@elliesflowers.al",
+  email: "hello@anjasflowers.al",
   accent: "#C56B5A",
   accentDeep: "#9E4031",
   ink: "#2B1A16",
@@ -97,7 +97,7 @@ const LANG = {
     visit: {
       eyebrow: "Visit Our Shop",
       title: "Find Us in Tirana",
-      body: "Step into Ellie's Flowers to choose your blooms in person, or order for same-day delivery across the city. Our florists are always happy to help you craft the perfect gift.",
+      body: "Step into Anja's Flowers to choose your blooms in person, or order for same-day delivery across the city. Our florists are always happy to help you craft the perfect gift.",
       addressLabel: "Our Shop",
       addressNote: "Fresh flowers & same-day delivery",
       hoursLabel: "Opening Hours",
@@ -155,7 +155,7 @@ const LANG = {
       inquiry: (n) => `Order request sent for "${n}". Our florists will contact you shortly.`,
       removed: (n) => `Removed "${n}" from your favourites.`,
       added: (n) => `Added "${n}" to your favourites.`,
-      newsletter: "Welcome to the Ellie's Flowers list! 🌷",
+      newsletter: "Welcome to the Anja's Flowers list! 🌷",
       booking: "To place an order, please call +355 69 209 7755."
     }
   },
@@ -201,7 +201,7 @@ const LANG = {
     visit: {
       eyebrow: "Vizitoni Dyqanin",
       title: "Na Gjeni në Tiranë",
-      body: "Hyni në Ellie's Flowers për të zgjedhur lulet personalisht, ose porosisni për dërgesë brenda ditës në të gjithë qytetin. Floristët tanë janë gjithmonë të gatshëm t'ju ndihmojnë të krijoni dhuratën perfekte.",
+      body: "Hyni në Anja's Flowers për të zgjedhur lulet personalisht, ose porosisni për dërgesë brenda ditës në të gjithë qytetin. Floristët tanë janë gjithmonë të gatshëm t'ju ndihmojnë të krijoni dhuratën perfekte.",
       addressLabel: "Dyqani Ynë",
       addressNote: "Lule të freskëta & dërgesë brenda ditës",
       hoursLabel: "Orari",
@@ -259,7 +259,7 @@ const LANG = {
       inquiry: (n) => `Kërkesa për "${n}" u dërgua. Floristët tanë do t'ju kontaktojnë së shpejti.`,
       removed: (n) => `"${n}" u hoq nga të preferuarat.`,
       added: (n) => `"${n}" u shtua te të preferuarat.`,
-      newsletter: "Mirë se vini te lista e Ellie's Flowers! 🌷",
+      newsletter: "Mirë se vini te lista e Anja's Flowers! 🌷",
       booking: "Për të porositur, ju lutemi telefononi +355 69 209 7755."
     }
   }
@@ -382,7 +382,7 @@ const PRODUCTS = [
   }
 ];
 
-// Brand mark — Ellie's eight-petal daisy bloom (matches Brand/logo.svg). Uses
+// Brand mark — Anja's eight-petal daisy bloom (matches Brand/logo.svg). Uses
 // currentColor so it adapts to whatever text colour wraps it, and carries the
 // `splash-mark` / `brand-petal` hooks the preloader animates.
 function BrandMark({ className = "" }) {
@@ -479,8 +479,8 @@ export default function App() {
   useEffect(() => {
     document.documentElement.lang = lang;
     document.title = lang === "sq"
-      ? "Ellie's Flowers — Trëndafila, Buqeta & Lule Sezonale në Tiranë"
-      : "Ellie's Flowers — Roses, Bouquets & Seasonal Blooms in Tirana";
+      ? "Anja's Flowers — Trëndafila, Buqeta & Lule Sezonale në Tiranë"
+      : "Anja's Flowers — Roses, Bouquets & Seasonal Blooms in Tirana";
   }, [lang]);
 
   // Lock body scroll while any overlay (search / wishlist / modal) is open.
@@ -1299,7 +1299,7 @@ export default function App() {
             </p>
 
             <div className="relative w-full h-[300px] sm:h-[350px] md:h-[450px] bg-brand-champagne border border-brand-champagne shadow-md overflow-hidden mt-4">
-              <div id="map" role="img" aria-label="Map showing Ellie's Flowers in Tirana" className="w-full h-full absolute inset-0 z-10 desaturate-map" />
+              <div id="map" role="img" aria-label="Map showing Anja's Flowers in Tirana" className="w-full h-full absolute inset-0 z-10 desaturate-map" />
               <div className="absolute inset-0 flex flex-col items-center justify-center z-0">
                 <span className="text-xs font-display tracking-widest text-brand-deep animate-pulse font-semibold">{t.visit.loading}</span>
               </div>
